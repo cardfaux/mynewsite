@@ -1,3 +1,8 @@
 import React from "react"
+import "../styles/style.css"
 
-export default () => <div>Hello world!</div>
+const HomePage = props => {
+  return <h1>home page</h1>
+}
+
+export default HomePage
