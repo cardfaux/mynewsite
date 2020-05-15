@@ -1,8 +1,10 @@
 import React from "react"
+
+import Symbol from "../components/HomePage/Symbol"
 import "../styles/style.css"
 
 const HomePage = props => {
-  return <h1>home page</h1>
+  return <Symbol />
 }
 
 export default HomePage
