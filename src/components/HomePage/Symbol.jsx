@@ -63,7 +63,6 @@ export default () => {
       <ambientLight intensity={0.9} />
       <pointLight position={[2, 2, 2]} />
       <Controls />
-
       <Symbol />
     </Canvas>
   )

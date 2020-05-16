@@ -8,7 +8,6 @@ import logo from "../../images/logo.svg"
 const Navbar = () => {
   return (
     <NavContainer>
-      {/* <div> */}
       <LogoContainer>
         <img
           className="svg-image"
@@ -16,7 +15,6 @@ const Navbar = () => {
           alt="jameshagood design & development logo"
         />
       </LogoContainer>
-      {/* </div> */}
       <div>
         <StyledUL>
           {Links.map((item, index) => {
