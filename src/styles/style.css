@@ -5,6 +5,8 @@ body {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  background: rgb(64, 63, 63);
-  background: radial-gradient(circle, rgba(64, 63, 63, 1) 10%, rgba(20, 22, 27, 1) 15%);
+  /* background: rgb(64, 63, 63); */
+  /* background: radial-gradient(circle, rgba(64, 63, 63, 1) 10%, rgba(20, 22, 27, 1) 15%); */
+  /* background: radial-gradient(circle, rgba(179, 181, 175, 1) 10%, rgb(224, 226, 219) 15%); */
+  background-color: #272727;
 }
