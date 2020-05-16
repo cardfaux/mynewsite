@@ -15,19 +15,20 @@ const Navbar = () => {
           alt="jameshagood design & development logo"
         />
       </LogoContainer>
-      <div>
-        <StyledUL>
-          {Links.map((item, index) => {
-            return (
-              <IconContainer>
-                <StyledLI key={index}>
-                  <Link to={item.path}>{item.icon}</Link>
-                </StyledLI>
-              </IconContainer>
-            )
-          })}
-        </StyledUL>
-      </div>
+
+      <StyledUL>
+        {Links.map((item, index) => {
+          return (
+            <IconContainer key={index}>
+              <StyledLI key={index}>
+                <Link href={item.path} to={item.path}>
+                  {item.icon}
+                </Link>
+              </StyledLI>
+            </IconContainer>
+          )
+        })}
+      </StyledUL>
     </NavContainer>
   )
 }

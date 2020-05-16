@@ -40,7 +40,7 @@ const Symbol = () => {
   useEffect(() => {
     new GLTFLoader().load("/symbol.glb", setModel)
   }, [])
-  console.log(model)
+
   return model ? (
     <a.primitive
       onClick={() => setActive(!active)}

@@ -3,7 +3,7 @@ import { FiUser, FiSliders, FiMail, FiBookOpen } from "react-icons/fi"
 
 export default [
   {
-    path: "/",
+    path: "/about",
     text: "about me",
     icon: <FiUser />,
   },

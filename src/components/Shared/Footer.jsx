@@ -9,8 +9,8 @@ const Footer = () => {
       <StyledUL>
         {SocialLinks.map((item, index) => {
           return (
-            <ItemDiv>
-              <StyledListItem key={item.index}>
+            <ItemDiv key={index}>
+              <StyledListItem key={index}>
                 <a href={item.url} target="_blank" rel="noopener noreferrer">
                   {item.icon}
                 </a>
