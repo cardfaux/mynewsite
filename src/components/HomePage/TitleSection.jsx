@@ -16,7 +16,7 @@ const TitleSection = () => {
           <StyledFiGitCommit />
           BackEnd
           <StyledFiGitCommit />
-          JavaScript Expert <br /> Web
+          Web Solutions Expert <br /> Web
           <StyledFiGitCommit />
           Mobile
         </StyledH2>

@@ -31,7 +31,7 @@ const Symbol = () => {
   const [model, setModel] = useState()
   const [active, setActive] = useState(false)
   const props = useSpring({
-    scale: active ? [30, 30, 30] : [50, 50, 50],
+    scale: active ? [50, 50, 50] : [100, 100, 100],
   })
   useEffect(() => {
     setActive(active => !active)
